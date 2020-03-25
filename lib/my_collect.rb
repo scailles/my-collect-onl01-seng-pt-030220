@@ -1,10 +1,10 @@
-def my_collect(languages)
-  x= 0
-  newarray=[]
-  while x<languages.length
-  newarray<< yield(languages[x])
-  x+=1
+
+
+
+def my_collect(collection)
+array = []
+my_collect(array) do |name|
+  name.split(" ").first
 end
-newarray
 end
 
